@@ -1,7 +1,6 @@
-A simple website displaying various methods of date and time.
-
 # About
 
+A simple website displaying various methods of date and time.
 Basic GAE project with Jinja templating engine
 
 # Usage
