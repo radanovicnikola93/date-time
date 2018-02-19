@@ -1,0 +1,14 @@
+body {
+
+  background-image: url(../img/background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+
+
+<!-- Background image taken from: https://unsplash.com/photos/uiOpLqdBNGA -->
+

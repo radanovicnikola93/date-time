@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Date and time</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Date & Time</h1>
+    {% if datetime %}
+        <p>Date and time: {{datetime}}</p>
+        <p>Current year: {{currentyear}}</p>
+        <p>Current month: {{currentmonth}}</p>
+        <p>Number of week: {{numofweek}}</p>
+        <p>Weekday of the week: {{numofdayinweek}}</p>
+        <p>Day of week: {{dayofweek}}</p>
+        <p>Day of year: {{dayofyear}}</p>
+        <p>Day of the month: {{dayofmonth}}</p>
+
+    {% else %}
+        <p>Sorry, date and time currently can't be displayed :(</p>
+    {% endif %}
+
+</body>
+</html>
